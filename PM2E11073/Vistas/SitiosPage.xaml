@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:Converters="clr-namespace:PM2E11073.Modelos"
+             x:Class="PM2E11073.Vistas.SitiosPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Converters:ConvertirImagen x:Key="ByteArrayToImage"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="listasitios" 
+                      ItemTapped="listasitios_ItemTapped"
+                      RowHeight="75">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+
+
+                        <ImageCell  ImageSource="{Binding Imagen, Converter={StaticResource ByteArrayToImage}}" Text="{Binding Longitud}" Detail="{Binding Descripcion}" 
+                                  TextColor="#f35e20"
+                                  DetailColor="#503026"  />
+
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+         
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
