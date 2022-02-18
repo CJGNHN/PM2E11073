@@ -56,11 +56,11 @@ namespace PM2E11073.Vistas
             await Navigation.PushAsync(sitio);
         }
 
-        private async void btnSalir_Clicked(object sender, EventArgs e)
+        private void btnSalir_Clicked(object sender, EventArgs e)
         {
-            var sitio = new Vistas.SitiosPage();
-            await Navigation.PushAsync(sitio);
+            System.Diagnostics.Process.GetCurrentProcess().CloseMainWindow();
         }
+
 
         async private void btncamara_Clicked(object sender, EventArgs e)
         {
@@ -135,5 +135,6 @@ namespace PM2E11073.Vistas
             }
             return ImageBytes;
         }
+
     }
 }
