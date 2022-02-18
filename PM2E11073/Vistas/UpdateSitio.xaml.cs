@@ -143,5 +143,10 @@ namespace PM2E11073.Vistas
             await Navigation.PopAsync();
         }
 
+        private async void btnMapa_Clicked(object sender, EventArgs e)
+        {
+            var sitio = new Vistas.PageMapa();
+            await Navigation.PushAsync(sitio);
+        }
     }
 }

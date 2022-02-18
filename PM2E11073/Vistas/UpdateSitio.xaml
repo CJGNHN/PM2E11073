@@ -33,10 +33,10 @@
                         </Frame>
                     </StackLayout>
                     <Grid ColumnDefinitions="*,*">
-                    <Button x:Name="btnEliminar" CornerRadius="4" Text="Eliminar Sitio" BackgroundColor="#82E0AA" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnEliminar_Clicked"/>
-                    <Button Grid.Column="1"  x:Name="btnActualizar" CornerRadius="4" Text="Actualizar Sitios" BackgroundColor="#82E0AA" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnActualizar_Clicked"/>
+                    <Button x:Name="btnEliminar" CornerRadius="4" Text="Eliminar Sitio" BackgroundColor="Red" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnEliminar_Clicked"/>
+                    <Button Grid.Column="1"  x:Name="btnActualizar" CornerRadius="4" Text="Actualizar Sitios" BackgroundColor="yellow" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnActualizar_Clicked"/>
             </Grid>
-            <Button x:Name="btnMapa" Text="Ir al MAPA" BackgroundColor="#82E0AA" CornerRadius="4" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                <Button x:Name="btnMapa" Text="Ir al MAPA" BackgroundColor="ForestGreen" CornerRadius="4" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnMapa_Clicked"/>
 
         </StackLayout>
         </Grid>

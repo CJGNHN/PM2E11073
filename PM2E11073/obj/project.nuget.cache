@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ig6Ki0enhfISykDl9w60aPPZyfq4TOVocXbjg61SL+AhvDxEZ/8c/t7FTYFVtciP91YGwoU0Y2mCkZ5Nzn8Tgg==",
+  "dgSpecHash": "Ryuo3kyAHS2qQMKaQbhjtjX+e5ZThF1irRY6F5rCgIy+wWgEhsmoic564/4rHguSFTLN6TY2ZfabB6D4LQYMrA==",
   "success": true,
   "projectFilePath": "C:\\Users\\SOPORTE\\source\\repos\\PM2E11073\\PM2E11073\\PM2E11073\\PM2E11073.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\SOPORTE\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\SOPORTE\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\SOPORTE\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2012\\xamarin.forms.maps.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }
