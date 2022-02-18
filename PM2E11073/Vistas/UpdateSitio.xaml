@@ -36,7 +36,7 @@
                     <Button x:Name="btnEliminar" CornerRadius="4" Text="Agregar Sitio" BackgroundColor="#82E0AA" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnEliminar_Clicked"/>
                     <Button Grid.Column="1"  x:Name="btnActualizar" CornerRadius="4" Text="Lista Sitios" BackgroundColor="#82E0AA" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnActualizar_Clicked"/>
             </Grid>
-            <Button x:Name="btnSalir" Text="Salir App" BackgroundColor="#82E0AA" CornerRadius="4" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnSalir_Clicked"/>
+            <Button x:Name="btnSalir" Text="Salir App" BackgroundColor="#82E0AA" CornerRadius="4" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
 
         </StackLayout>
         </Grid>

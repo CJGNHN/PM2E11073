@@ -31,7 +31,7 @@ namespace PM2E11073.Vistas
             { }
                 var sitio = new Sitios
             {
-                Codigo = id.Text,
+                Codigo = Convert.ToInt32(id.Text),
                 Latitud = latitud.Text,
                 Longitud = longitud.Text,
                 Descripcion = descripcion.Text,
