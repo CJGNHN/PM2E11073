@@ -43,7 +43,7 @@ namespace PM2E11073.Vistas
             }
             else
             {
-                await DisplayAlert("Aviso", "Persona Ingresada con Exito!!!", "Ok");
+                await DisplayAlert("Aviso", "Sitio Registrado con Exito!!!", "Ok");
                 await App.BaseDatos.GuardarSitio(sitio);
             }
 

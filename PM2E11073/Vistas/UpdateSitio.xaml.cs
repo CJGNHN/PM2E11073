@@ -47,7 +47,7 @@ namespace PM2E11073.Vistas
             }
             else
             {
-                await DisplayAlert("Aviso", "Persona Ingresada con Exito!!!", "Ok");
+                await DisplayAlert("Aviso", "Sitio Actualizado con Exito!!!", "Ok");
                 await App.BaseDatos.GuardarSitio(sitio);
             }
 
@@ -133,7 +133,7 @@ namespace PM2E11073.Vistas
             if (sitio != null)
             {
                 await App.BaseDatos.EliminarSitio(sitio);
-                await DisplayAlert("Aviso", "Sitio Eliminada con Exito!!!", "Ok");
+                await DisplayAlert("Aviso", "Sitio Eliminado con Exito!!!", "Ok");
             }
             else
             {
