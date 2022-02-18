@@ -8,9 +8,9 @@
 
                 <StackLayout>
 
-                    <Label Text="SITE VISITOR APP" HorizontalTextAlignment="Center" TextColor="Black" FontSize="14"/>
+                    <Label Text="Actualizacion de Sitio" HorizontalTextAlignment="Center" TextColor="Black" FontSize="22"/>
                     <Grid>
-                        <Label Text="IMAGEN SITIO VISITADO" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16" />
+                        <Label Text="IMAGEN SITIO VISITADO" HorizontalTextAlignment="Center" TextColor="Black" FontSize="14" />
                     </Grid>
 
                     <Image Source="{Binding imagen}" x:Name="img" HeightRequest="230" WidthRequest="80" BackgroundColor="AliceBlue" />
@@ -33,10 +33,10 @@
                         </Frame>
                     </StackLayout>
                     <Grid ColumnDefinitions="*,*">
-                    <Button x:Name="btnEliminar" CornerRadius="4" Text="Agregar Sitio" BackgroundColor="#82E0AA" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnEliminar_Clicked"/>
-                    <Button Grid.Column="1"  x:Name="btnActualizar" CornerRadius="4" Text="Lista Sitios" BackgroundColor="#82E0AA" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnActualizar_Clicked"/>
+                    <Button x:Name="btnEliminar" CornerRadius="4" Text="Eliminar Sitio" BackgroundColor="#82E0AA" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnEliminar_Clicked"/>
+                    <Button Grid.Column="1"  x:Name="btnActualizar" CornerRadius="4" Text="Actualizar Sitios" BackgroundColor="#82E0AA" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnActualizar_Clicked"/>
             </Grid>
-            <Button x:Name="btnSalir" Text="Salir App" BackgroundColor="#82E0AA" CornerRadius="4" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+            <Button x:Name="btnMapa" Text="Ir al MAPA" BackgroundColor="#82E0AA" CornerRadius="4" FontSize="14" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
 
         </StackLayout>
         </Grid>
